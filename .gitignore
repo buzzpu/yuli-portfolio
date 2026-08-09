@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+._*
+
+# 原始圖檔備份（檔名為 .jpg.jpg，網站不使用；正式圖片在 images/）
+web_img/
+
+# 歷史版本 HTML（開發過程備份，不需進版控）
+web_files/
+
+# 本機備份
+*.bak
+
+# 編輯器
+.vscode/
+.idea/
+
+# Claude Code 本機設定（含本機路徑，不需分享）
+.claude/settings.local.json
