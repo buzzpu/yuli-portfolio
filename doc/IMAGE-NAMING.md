@@ -68,7 +68,7 @@
 
 ## 尺寸與大小規範
 
-詳見專案根目錄的 `IMAGES.md`。
+詳見 `doc/IMAGES.md`。
 
 ## 加入圖片到 HTML
 

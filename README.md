@@ -11,9 +11,11 @@ yuli-portfolio/
 ├── index.html            主要檔案 · 所有圖片位置為空白，供填入你的真實作品
 ├── index-demo.html       示範版 · 已用 picsum.photos 填入 27 張測試圖片
 ├── README.md             本檔案 · 專案總覽、快速開始、部署指南
-├── IMAGES.md             圖片規格詳細說明 · 尺寸原理、優化流程、格式建議
-└── images/               你的作品圖片放這裡
-    └── README.md         圖片檔名對照表與命名規則
+├── doc/                  專案文件
+│   ├── IMAGES.md         圖片規格詳細說明 · 尺寸原理、優化流程、格式建議
+│   ├── IMAGE-NAMING.md   圖片檔名對照表與命名規則
+│   └── DEPLOY.md         上線與網域設定 · 日常更新流程
+└── images/               你的作品圖片放這裡（27 張）
 ```
 
 ---
@@ -34,7 +36,7 @@ yuli-portfolio/
 - 印章文字（預設「游墨」）
 
 ### Step 3 · 加入你的圖片
-1. 把作品圖片放進 `images/` 資料夾（規格見 `IMAGES.md`）
+1. 把作品圖片放進 `images/` 資料夾（規格見 `doc/IMAGES.md`）
 2. 檔名依照 `data-slot` 命名（例如 `streamwalker-01.jpg`）
 3. 在 HTML 對應位置加入 `<img>` 標籤：
 
